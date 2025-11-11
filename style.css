@@ -6,6 +6,18 @@ main {
     padding: 32px;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+li {
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+
 h1 {
     font-size: 48px;
     color: black;
@@ -59,8 +71,13 @@ img {
 }
 
 a {
-    text-decoration: none;
-    font-size: 20px;
+    text-decoration: underline;
+    font-size: 24px;
+    color: black;
+}
+
+a:hover {
+    color: rgb(141, 141, 141);
 }
 
 .ressources {
@@ -71,6 +88,19 @@ a {
 
 .sites_ressources {
     background-color: rgb(170, 235, 245);
+    border-radius: 25px;
+    padding: 32px;
+    border: 3px solid black;
+}
+
+.docs {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+}
+
+.sites_docs {
+    background-color: rgb(255, 225, 213);
     border-radius: 25px;
     padding: 32px;
     border: 3px solid black;
