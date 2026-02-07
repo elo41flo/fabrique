@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extensions</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -16,7 +18,34 @@
                     <li><a href="extensions.html">Extensions</a></li>
                 </ul>
             </nav>
+            <div class="search-container">
+                <input type="text" id="searchbar" onkeyup="search_resource()"
+                    placeholder="Chercher une ressources de cours...">
+            </div>
         </header>
+        <h1>Extensions</h1>
+
+        <div class="extensions">
+            <section class="extension">
+                <h2>Wave Evaluation Tool</h2>
+                <a href="https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">Accèder à Wave</a>
+            </section>
+
+            <section class="extension">
+                <h2>SEO Minion</h2>
+                <a href="https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi">Accèder à SEO Minion</a>
+            </section>
+
+            <section class="extension">
+                <h2>Sélécteur de couleur</h2>
+                <a href="https://chromewebstore.google.com/detail/outils-de-d%C3%A9v-web-s%C3%A9lecte/gfjhhbffibhgfkllcpdhhofbbejjhmdp?hl=fr&utm_source=ext_sidebar">Accèder à Sélécteur de couleur</a>
+            </section>
+
+            <section class="extension">
+                <h2>Core Web Vitals</h2>
+                <a href="https://chromewebstore.google.com/detail/core-web-vitals-v%C3%A9rifiez/aaldphpndekiaclbcmfgbghngcmeeeaf?hl=fr&utm_source=ext_sidebar">Accèder à Core Web Vitals</a>
+            </section>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
